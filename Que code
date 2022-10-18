@@ -1,0 +1,50 @@
+#include<iostream>
+using namespace std;
+Class que
+{
+int a[5], x;
+int rear--1, front=0;
+
+public:
+void insertion();
+void deletion ();
+};
+void que::insert()
+{
+if (rear>4)
+{
+cout<<"Error your queue is full"; 
+cout<<end1;
+}
+else
+{
+cout<<"Insert your number:";
+cin>>x;
+a[rear] =x;
+rear++;
+}
+}
+void delete()
+{
+if (rear<frontt)
+{
+cout<<"Queue is empty";
+cout<<endl;
+}
+else
+{
+x=a[frontt];
+front++;
+cout<<x;
+}
+}
+int main()
+{
+que q1;
+
+q1.insertion ();
+q1.insertion();
+ql.deletion ();
+}
+return 0;
+}
